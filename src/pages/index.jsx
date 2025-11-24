@@ -140,7 +140,7 @@ const Dashboard = () => {
     <div className={`min-h-screen p-8 ${darkMode ? 'bg-gray-900 text-gray-100' : 'bg-white text-gray-800'}`}>
       {/* Header avec toggle dark mode et filtres */}
       <div className="max-w-7xl mx-auto mb-8">
-        <div className="flex justify-between items-center mb-12">
+        <div className="flex flex-col md:flex-row justify-between items-center mb-12">
           <div>
             <h1 className="text-4xl font-bold mb-2">Dashboard de Présence</h1>
             <p className={`${darkMode ? 'text-gray-400' : 'text-gray-500'} text-lg`}>Analyse en temps réel</p>
@@ -334,3 +334,4 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
+
