@@ -5,10 +5,11 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <link rel="icon" href="/logo.png" />
+        <link rel="icon" href="/logoApp.png" />
       </Head>
 
       <Component {...pageProps} />
     </>
   )
 }
+
