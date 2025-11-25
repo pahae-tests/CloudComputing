@@ -337,8 +337,8 @@ const Dashboard = () => {
         Accédez à vos statistiques de présence en temps réel, recevez des notifications et bien plus, directement depuis votre smartphone.
       </p>
       <a
-        href="/app.exe"
-        download="ApplicationPresence.exe"
+        href="/app-release.apk"
+        download="Projet Cloud.apk"
         className={`inline-flex items-center px-4 py-2 rounded-lg font-medium ${darkMode ? 'bg-blue-600 hover:bg-blue-700' : 'bg-blue-500 hover:bg-blue-600'} text-white transition-colors`}
       >
         <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
@@ -361,5 +361,6 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
+
 
 
