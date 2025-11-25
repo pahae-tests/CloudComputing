@@ -333,7 +333,7 @@ const Dashboard = () => {
   <div className="flex flex-col md:flex-row items-center justify-between">
     <div className="flex items-center">
       <img
-        src="/logo.exe"
+        src="/logoApp.png"
         alt="Logo de l'application"
         className="w-16 h-16 mr-4 object-contain"
       />
@@ -365,3 +365,4 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
+
